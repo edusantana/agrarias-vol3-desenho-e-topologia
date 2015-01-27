@@ -1,168 +1,115 @@
-== Novo capítulo
+== Generalidades
 
 :cap: cap1
 :img: images/{cap}
 :online: {gitrepo}/blob/master/livro/code/{cap}
 :local: code/{cap}
 
-.Objetivos do capítulo
-____
-Ao final deste capítulo você deverá ser capaz de:
+=== Definição
 
-1.  *Lembrar* as três hipóteses de previsão e listar os padrões típicos
-de comportamento de dados históricos, *reproduzindo-os* na realização de
-exercícios teóricos, envolvendo os nomes das técnicas de previsão mais
-utilizadas em processos estacionários, com tendência e com
-sazonalidade.
+A palavra Topografia deriva das palavras gregas _topos_ (lugar) e
+_graphen_ (descrever). Assim, de uma maneira simples, Topografia
+significa “descrição de um lugar”.
 
-2.  *Entender*  as  diferenças  entre  as  técnicas existentes,
-*comparando* cada uma com as diferentes hipóteses e padrão de dados.
+Nas ciências agrárias esse “lugar” geralmente é uma propriedade rural
+aonde pode ser desenvolvida alguma atividade agropecuária.
 
-3.  *Escolher* e aplicar, de forma consciente, uma das técnicas,
-*implementando* um programa específico ou utilizando um aplicativo
-disponível  no mercado.
+=== Objetivo
+A topografia tem como objetivo estudar os instrumentos e os métodos para
+coleta de dados, cálculo e representação gráfica de parte da superfície terrestre,
+sem levar em consideração a curvatura da superfície da Terra.
 
-4.  *Analisar*  as  diferentes  medidas  de  erro, *diferenciando-as*,
-*atribuindo* significados de importância e *entendendo* em quais
-circunstâncias  cada uma delas é mais adequada.
+A Topografia pode ser entendida como parte da GEODÉSIA, que é a ciência
+que tem por objetivo determinar a forma e dimensões da Terra, levando em
+consideração a sua curvatura. Quando o trecho estudado não tem grandes
+dimensões, então pode ser considerado plano, dessa forma facilitam-se os
+cálculos necessários para representação desse trecho, podendo-se usar os
+conceitos matemáticos de geometria plana.
 
-5.  *Avaliar* os resultados obtidos por meio do emprego da técnica de
-previsão, *estimando* o impacto da acuracidade e das incertezas
-associadas a todo o processo.
+Dessa forma, em topografia, a representação da superfície estudada é feita
+sobre um plano, denominado Plano Topográfico. Na figura seguinte a superfície
+estudada é formada pelos pontos ACEGHFDB, o plano topográfico está destacado
+na cor amarela e a representação do trecho estudado é formada pelos pontos
++ACEGHFDB+. Essa representação é denominada PROJEÇÃO
+ORTOGRÁFICA.
 
-____
-
-[cols="^13,^10,^10,^10,^10,^10,^10", grid="cols",frame="none"]
-|====
-1.2+s| Conhecimento 6+s| Processo Cognitivo
-| Lembrar         |Entender  | Aplicar |  Analisar | Avaliar | Criar
-| Factual  |Objetivo 1|||||
-| Conceitual |Objetivo 2|Objetivo 3||||
-| Procedural |||Objetivo 4|||
-| Metacognitivo ||||||Objetivo 5
-|  2+s|Conhecimento 2+s|Competência 2+s|Habilidade
-|====
-
-A *elaboração dos objetivos de aprendizagem* e *divisão das seções* do
-capítulo seguem a taxonomia de Bloom revisada, para
-compreender esta classificação recomendo a leitura de  ``Taxonomia de
-Bloom: revisão teórica e apresentação das adequações do instrumento
-para definição de objetivos instrucionai'', disponível em
-http://www.scielo.br/pdf/gp/v17n2/a15v17n2.pdf.
-
-.Dimensão do conhecimento da Taxonomia de Bloom revisada
-image::{img}/bloom.eps[]
+image::{img}/fig-topologia-ortografia.jpg[scaledwidth="70%"]
 
 
-=== Terminologia
+=== Importância
+A Topografia é a base para diversos trabalhos de engenharia, onde o
+conhecimento das formas e dimensões do terreno é importante. Na agricultura a
+topografia pode ser usada em diversos tipos de trabalho como: implantação de
+culturas, projetos de irrigação e drenagem, projeto e execução de estradas,
+cadastro de reservas florestais, reflorestamento, paisagismo, serviços de
+terraplanagem, etc.
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
+=== Divisão da topografia
+De uma maneira geral a topografia pode ser dividida em: TOPOMETRIA,
+TOPOLOGIA, TAQUEOMETRIA e FOTOGRAMETRIA.
 
-- Conhecimento da Terminologia; 
+==== Topometria
+É o conjunto de métodos empregados para a coleta de dados, cálculo e
+representação gráfica de parte da superfície terrestre. Divide-se em:
+PLANIMETRIA e ALTIMETRIA.
 
-=== Detalhes e elementos específicos
+Planimetria:: é o conjunto de métodos usados para a representação em
+projeção ortográfica da superfície estudada. Os trabalhos topográficos
+executados em planimetria são chamados de LEVANTAMENTOS e o desenho
+resultante de PLANTA.
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
-
-- Conhecimento de detalhes e elementos específicos.
-
-=== Classificação e categorização
-
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de classificação e categorização; 
-
-=== Princípios e generalizações
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de princípios e generalizações; 
+Altimetria:: é o conjunto de métodos usados para determinação das
+distâncias verticais de certo número de pontos sobre a superfície estudada. Os
+trabalhos topográficos executados em altimetria são chamados de
+NIVELAMENTOS e o desenho resultante de PERFIL.
 
 
-=== Teorias, modelos e estruturas
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
+Algumas vezes são executados trabalhos de planimetria e altimetria ao
+mesmo tempo. Esses trabalhos são denominados de LEVANTAMENTOS
+PLANIALTIMÉTRICOS. Esses trabalhos podem gerar desenhos chamados de
+CURVAS DE NÍVEIS, que são linhas traçadas sobre uma planta, passando por
+pontos do terreno com uma mesma “altura”. As curvas de níveis também podem
+ser traçadas no terreno, geralmente associadas a práticas de conservação do
+solo.
 
-- Conhecimento de teorias, modelos e estruturas.
+==== Topologia
 
-=== Conteúdos específicos, habilidades e algoritmos
-Conhecimento Procedural:: relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+Tem como finalidade o estudo das formas exteriores da superfície
+terrestre e das leis a que rege o seu modelado. Sua aplicação principal é na
+representação da altimetria pelas curvas de nível.
 
-- Conhecimento de conteúdos específicos, habilidades e algoritmos; 
+==== Taqueometria
 
-=== Técnicas específicas e métodos
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+A determinação de distância em topografia, muitas vezes, é feita de
+maneira direta, com o uso de uma trena, por exemplo. A taqueometria, ou
+estadimetria, tem por finalidade a determinação das distâncias de maneira
+indireta.
 
-- Conhecimento de técnicas específicas e métodos; 
+==== Fotogrametria
 
-=== Critérios e percepção de como e quando usar um procedimento específico.
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+São levantamentos efetuados, geralmente em áreas extensas, por meio
+de fotografias especiais. Quando são usados aviões o processo é denominado
+de AEROFOTOGRAMETRIA.
 
-- Conhecimento de critérios e percepção de como e quando usar um procedimento específico.
+=== Divisão dos trabalhos topográficos
 
-=== Conhecimento estratégico
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+==== Trabalhos preliminares
 
-- Conhecimento estratégico; 
+Em que é feita uma visita ao lugar que se deseja representar. Essa visita
+é importante para se observar o tamanho da área, o tipo de relevo, tipo de
+vegetação e todas as informações necessárias para que se possa escolher os
+métodos e equipamentos apropriados ao local.
 
-=== Contextos preferenciais e situações de aprendizagem (estilos)
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+==== Trabalhos de campo
 
-- Conhecimento sobre atividades cognitivas  incluindo contextos preferenciais e situações de aprendizagem (estilos); 
+Nessa etapa são feitas, no lugar estudado, medições de distâncias (grandezas
+lineares) e medições de ângulos (grandezas angulares). Essas medições
+devem ser devidamente anotadas.
+  
+==== Trabalhos de escritório
 
-=== Autoconhecimento
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+Nessa etapa são feitos os cálculos e desenhos necessários para a
+representação do trecho estudado.
 
-- Autoconhecimento
-
-=== Recapitulando
-
-Revisão do que foi aprendido. Não apresentar nada novo.
+Em topografia são determinadas e representadas apenas duas
+grandezas, as LINEARES e as ANGULARES.

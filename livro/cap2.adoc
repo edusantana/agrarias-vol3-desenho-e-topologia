@@ -1,168 +1,160 @@
-== Novo capítulo
+== Ângulos
 
 :cap: cap2
 :img: images/{cap}
 :online: {gitrepo}/blob/master/livro/code/{cap}
 :local: code/{cap}
 
-.Objetivos do capítulo
-____
-Ao final deste capítulo você deverá ser capaz de:
+=== Segmento de reta e semi-reta
 
-1.  *Lembrar* as três hipóteses de previsão e listar os padrões típicos
-de comportamento de dados históricos, *reproduzindo-os* na realização de
-exercícios teóricos, envolvendo os nomes das técnicas de previsão mais
-utilizadas em processos estacionários, com tendência e com
-sazonalidade.
+Um segmento de reta orientado AB é um segmento de reta que
+tem início em A e final em B.
 
-2.  *Entender*  as  diferenças  entre  as  técnicas existentes,
-*comparando* cada uma com as diferentes hipóteses e padrão de dados.
+image::{img}/segmento-de-reta.jpg[]
 
-3.  *Escolher* e aplicar, de forma consciente, uma das técnicas,
-*implementando* um programa específico ou utilizando um aplicativo
-disponível  no mercado.
+Uma semi-reta orientada AB é a parte de uma reta que tem início em A,
+passa por B e se prolonga indefinidamente.
 
-4.  *Analisar*  as  diferentes  medidas  de  erro, *diferenciando-as*,
-*atribuindo* significados de importância e *entendendo* em quais
-circunstâncias  cada uma delas é mais adequada.
 
-5.  *Avaliar* os resultados obtidos por meio do emprego da técnica de
-previsão, *estimando* o impacto da acuracidade e das incertezas
-associadas a todo o processo.
+image::{img}/semi-reta.jpg[]
 
-____
+=== Ângulo
 
-[cols="^13,^10,^10,^10,^10,^10,^10", grid="cols",frame="none"]
+Ângulo a região do plano dois segmentos de reta orientados, ou duas
+semi-retas orientadas (lados) que têm a origem no mesmo ponto (vértice).
+
+image::{img}/angulo.jpg[]
+
+
+Podem ser usadas três letras, por exemplo, AOB para se indicar um
+ângulo, sendo que a letra do meio O representa o vértice, a primeira letra A
+representa um ponto do primeiro segmento de reta (ou semi-reta) e a terceira letra
+B representa um ponto do segundo segmento de reta (ou semi-reta). Pode-se
+usar a notação < para um ângulo, como por exemplo: <AOB.
+
+image::{img}/angulo-notacao.jpg[]
+
+Notar que, nesse caso, um arco orientado foi traçado no sentido anti-
+horário, ou seja, de A (ponto da semi-reta, escolhida como primeira) para B.
+
+O mesmo ângulo poderia ser representado pelas letras BOA (o arco
+orientado ficaria no sentido horário), e nesse caso, deve ficar claro que foi
+escolhido como primeiro segmento (ou semi-reta) aquele que contém o ponto B,
+sendo o vértice do ângulo o mesmo da situação anterior.
+
+NOTE: Em trigonometria o sentido anti-horário é definido como sentido positivo.
+
+Quando não houver dúvida ou necessidade de orientação, pode-se
+indicar o ângulo simplesmente pela letra que representa o vértice, como por
+exemplo: Ô. Outra notação para esses caso é AÔB (ou BÔA) sendo O, o vértice
+do mesmo e as letras A e B localizadas nos lados do ângulo.
+
+Com relação às suas medidas, os ângulos podem ser classificados como:
+reto, agudo, obtuso e raso.
+
+
+[width="100%",cols="1^,4^,2^",frame="topbot",options="header",valign="middle"]
 |====
-1.2+s| Conhecimento 6+s| Processo Cognitivo
-| Lembrar         |Entender  | Aplicar |  Analisar | Avaliar | Criar
-| Factual  |Objetivo 1|||||
-| Conceitual |Objetivo 2|Objetivo 3||||
-| Procedural |||Objetivo 4|||
-| Metacognitivo ||||||Objetivo 5
-|  2+s|Conhecimento 2+s|Competência 2+s|Habilidade
+| Ângulo | Características | Gráfico
+| Agudo 
+| Ângulo cuja medida é maior do que 0° e menor que 90°. Ao lado, um ângulo de 45°.
+| image:{img}/a45.jpg[]
+| Reto
+| Um ângulo reto é um ângulo cuja medida é exatamente 90o. Assim os seus lados estão localizados em retas perpendiculares.
+| image:{img}/a90.jpg[]
+| Obtuso
+| É um ângulo cuja medida está entre 90° e 180° graus. Na figura ao lado, um exemplo de um ângulo obtuso de 135°.
+| image:{img}/a135.jpg[]
+| Raso
+| Ângulo que mede exatamente 180o, os seus lados são semi-retas opostas. Neste caso os seus lados estão localizados sobre uma mesma reta.
+| image:{img}/a180.jpg[]
 |====
 
-A *elaboração dos objetivos de aprendizagem* e *divisão das seções* do
-capítulo seguem a taxonomia de Bloom revisada, para
-compreender esta classificação recomendo a leitura de  ``Taxonomia de
-Bloom: revisão teórica e apresentação das adequações do instrumento
-para definição de objetivos instrucionai'', disponível em
-http://www.scielo.br/pdf/gp/v17n2/a15v17n2.pdf.
 
-.Dimensão do conhecimento da Taxonomia de Bloom revisada
-image::{img}/bloom.eps[]
+O ângulo reto (90º) é provavelmente o ângulo mais importante, pois o
+mesmo é encontrado em inúmeras aplicações práticas, como no encontro de
+uma parede com o chão, os pés de uma mesa em relação ao seu tampo, caixas
+de papelão, esquadrias de janelas, etc.
 
+Um ângulo de 360° é o ângulo que completa o círculo. Após essa volta completa
+esse ângulo coincide com o ângulo de zero grau, mas possui a grandeza de 360°.
 
-=== Terminologia
+===  Transferidor
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
+Para representar a medida de um ângulo traçado em um papel, utiliza-se
+um instrumento denominado TRANSFERIDOR, formado por um semicírculo
+(alguns são formados por um círculo) com um segmento de reta em sua base (ou
+passando pelo centro, se for um círculo) com as unidades de 0° a 180°, marcados
+ao longo arco do semicírculo. Alguns transferidores possuem a escala de 0° a
+180°, marcada em ambos os sentidos do arco.
 
-- Conhecimento da Terminologia; 
+Para medir um ângulo, coloque o centro do transferidor (ponto 0) no
+vértice do ângulo, alinhe o segmento de reta OA (ou OE) com um dos lados do
+ângulo e o outro lado do ângulo determinará a medida do ângulo, como mostra a
+figura a seguir, em que podem ser lidos diretamente os seguintes ângulos:
 
-=== Detalhes e elementos específicos
+|====
+| AÔB = 27º | AÔC = 70º | AÔD = 120º | AÔE = 180º
+| EÔB=153º | EÔC =110º | EÔD = 60º | EÔA =180º
+|====
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
+image::{img}/transferidor.jpg[]
 
-- Conhecimento de detalhes e elementos específicos.
-
-=== Classificação e categorização
-
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de classificação e categorização; 
-
-=== Princípios e generalizações
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de princípios e generalizações; 
+NOTE: Dependendo da espessura do traçado das semi-retas, alguém poderia
+dizer que o ângulo AOB = 26,5°, ou 26,9°. Assim, deve-se ter em mente o caráter
+aproximado do traçado de ângulos com o uso do transferidor.
 
 
-=== Teorias, modelos e estruturas
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
+=== Sistema decimal e sistema sexagesimal
 
-- Conhecimento de teorias, modelos e estruturas.
+Os ângulos traçados com o transferidor são representados no sistema
+DECIMAL, que tem como base o numero 10 (dez) e é o sistema usual da maioria
+das grandezas. No entanto, em topografia, os ângulos são determinados, no
+campo, usando-se um aparelho denominado TEODOLITO. A maioria desses
+aparelhos usa o GRAU como unidade de medida, só que no sistema
+SEXAGESIMAL. Esse sistema tem como base o número 60 (sessenta), sendo
+que o GRAU (°) é subdividido da seguinte forma:
 
-=== Conteúdos específicos, habilidades e algoritmos
-Conhecimento Procedural:: relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+[width="100%",cols="1^,2^,1^",frame="topbot",options="header"]
+|====
+| Unidade de ângulo | Número de subdivisões | Notação
+| 1 grau | 60 minutos | 60'
+| 1 minuto | 60 segundos | 60”
+|====
 
-- Conhecimento de conteúdos específicos, habilidades e algoritmos; 
+____
+Assim: 1° = 60' e 1' = 60”
+____
 
-=== Técnicas específicas e métodos
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
 
-- Conhecimento de técnicas específicas e métodos; 
+=== Conversão de grau sexagesimal para decimal
+REGRA PRÁTICA: “Divide-se os SEGUNDOS por 60 e soma-se aos
+MINUTOS. Divide-se esse resultado por 60 e soma-se aos GRAUS.”
 
-=== Critérios e percepção de como e quando usar um procedimento específico.
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+=== Conversão de grau decimal para sexagesimal
 
-- Conhecimento de critérios e percepção de como e quando usar um procedimento específico.
+REGRA PRÁTICA: A parte inteira corresponde aos GRAUS. Multiplica-
+se a parte fracionária (com zero e vírgula) por 60. A parte inteira desse resultado
+corresponde aos MINUTOS; a parte fracionária (com zero e vírgula) deve ser
+multiplicada por 60 para se obter os SEGUNDOS.
 
-=== Conhecimento estratégico
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+NOTE: Nos segundos admite-se parte fracionária.
 
-- Conhecimento estratégico; 
+=== Ângulos horizontais em topografia
+São ângulos formados por dois planos verticais, contendo as direções
+formadas pelo ponto ocupado (vértice) e os pontos visados, conforme a figura
 
-=== Contextos preferenciais e situações de aprendizagem (estilos)
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+image::{img}/angulo-dois-planos.jpg[]
 
-- Conhecimento sobre atividades cognitivas  incluindo contextos preferenciais e situações de aprendizagem (estilos); 
+Assim, o ângulo entre as direções AO-OB e CO-OD é o mesmo, pois os
+pontos A e C estão no mesmo plano vertical (π) e B e D no mesmo plano vertical
+(π').
 
-=== Autoconhecimento
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+=== Ângulos verticais em topografia
 
-- Autoconhecimento
+Pode ter origem no horizonte (plano horizontal) ou na vertical do lugar,
+ZÊNITE direcionado para cima, ou NADIR, direcionado para BAIXO, conforme
+a figura seguinte.
 
-=== Recapitulando
+image::{img}/zenite.jpg[scaledwidth="60%"]
 
-Revisão do que foi aprendido. Não apresentar nada novo.
