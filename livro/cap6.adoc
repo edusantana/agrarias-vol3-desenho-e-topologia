@@ -1,168 +1,105 @@
-== Novo capítulo
+== Determinação direta de distâncias
 
 :cap: cap6
 :img: images/{cap}
 :online: {gitrepo}/blob/master/livro/code/{cap}
 :local: code/{cap}
 
-.Objetivos do capítulo
-____
-Ao final deste capítulo você deverá ser capaz de:
 
-1.  *Lembrar* as três hipóteses de previsão e listar os padrões típicos
-de comportamento de dados históricos, *reproduzindo-os* na realização de
-exercícios teóricos, envolvendo os nomes das técnicas de previsão mais
-utilizadas em processos estacionários, com tendência e com
-sazonalidade.
+=== Diastimetros
+A medida de distâncias de forma direta ocorre quando a mesma é
+determinada a partir da comparação com uma grandeza
+padrão, previamente estabelecida, através de
+DIASTÍMETROS (trenas, por exemplo).
 
-2.  *Entender*  as  diferenças  entre  as  técnicas existentes,
-*comparando* cada uma com as diferentes hipóteses e padrão de dados.
+Em topografia as distâncias medidas são as projeções horizontais dos
+alinhamentos, as chamadas BASES PRODUTIVAS.
 
-3.  *Escolher* e aplicar, de forma consciente, uma das técnicas,
-*implementando* um programa específico ou utilizando um aplicativo
-disponível  no mercado.
+Observando-se a figura seguinte, na
+medição da distância horizontal entre os
+pontos A e B, mede-se, na realidade, a
+projeção de AB no plano horizontal,
+resultando na medição de A'B'.
 
-4.  *Analisar*  as  diferentes  medidas  de  erro, *diferenciando-as*,
-*atribuindo* significados de importância e *entendendo* em quais
-circunstâncias  cada uma delas é mais adequada.
+image::{img}/distancia.jpg[scaledwidth="40%"]
 
-5.  *Avaliar* os resultados obtidos por meio do emprego da técnica de
-previsão, *estimando* o impacto da acuracidade e das incertezas
-associadas a todo o processo.
+Nessa medição é importante manter a
+horizontalidade da trena, e manter tensão
+uniforme nas extremidades. Notar que a
+posição inicial do diastimetro é chamada de
+RÉ e a posição final de VANTE.
 
-____
+Atualmente o diastimetro mais usado
+é a trena de fibra de vidro, que é feita de material resistente (produto inorgânico
+obtido do próprio vidro por processos especiais). A figura seguinte ilustra alguns
+modelos de trenas.
 
-[cols="^13,^10,^10,^10,^10,^10,^10", grid="cols",frame="none"]
-|====
-1.2+s| Conhecimento 6+s| Processo Cognitivo
-| Lembrar         |Entender  | Aplicar |  Analisar | Avaliar | Criar
-| Factual  |Objetivo 1|||||
-| Conceitual |Objetivo 2|Objetivo 3||||
-| Procedural |||Objetivo 4|||
-| Metacognitivo ||||||Objetivo 5
-|  2+s|Conhecimento 2+s|Competência 2+s|Habilidade
-|====
+Os comprimentos totais variam entre 20 a 50m (com invólucro) e de 20 a
+100m (sem invólucro). Comparada à trena de lona, deforma menos com a
+temperatura e a tensão, não se deteriora facilmente e é resistente à umidade e
+aprodutos químicos, sendo também bastante prática e segura.
 
-A *elaboração dos objetivos de aprendizagem* e *divisão das seções* do
-capítulo seguem a taxonomia de Bloom revisada, para
-compreender esta classificação recomendo a leitura de  ``Taxonomia de
-Bloom: revisão teórica e apresentação das adequações do instrumento
-para definição de objetivos instrucionai'', disponível em
-http://www.scielo.br/pdf/gp/v17n2/a15v17n2.pdf.
+image::{img}/corda.jpg[]
 
-.Dimensão do conhecimento da Taxonomia de Bloom revisada
-image::{img}/bloom.eps[]
+=== ACESSÓRIOS
+Durante a medição de uma distância utilizando uma trena, é comum o
+uso de alguns acessórios como: piquetes, estacas testemunhas, balizas e
+fichas.
 
+Os PIQUETES são necessários para marcar convenientemente os
+extremos do alinhamento a ser medido. São fabricados de madeira roliça ou de
+seção quadrada com a superfície no topo plana; comprimento variável de 15 a
+30cm; diâmetro variando de 3 a 5cm; assinalados (marcados) na sua parte
+superior com tachinhas de cobre, pregos ou outras formas de marcações que
+sejam permanentes. É cravado no solo, porém, parte dele (cerca de 3 a 5cm)
+deve permanecer visível, sendo que sua principal função é a materialização de
+um ponto topográfico no terreno.
 
-=== Terminologia
+As estacas testemunhas são usadas para facilitar a localização dos
+piquetes, indicando a sua posição aproximada. São cravadas próximas ao
+piquete, cerca de 30 a 50cm; comprimento variável de 15 a 40cm; diâmetro
+variável de 3 a 5cm; chanfradas na parte superior para permitir uma inscrição,
+indicando o nome ou número do piquete. Normalmente a parte chanfrada é
+cravada voltada para o piquete.
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
+image::{img}/piquete.jpg[scaledwidth="80%"]
 
-- Conhecimento da Terminologia; 
+As BALIZAS são utilizadas para manter o alinhamento na medição entre pontos.
+São construídas em madeira ou ferro, arredondado, sextavado ou oitavado;
+comprimento de 2 metros; diâmetro variável de 16 a 20mm; pintadas
+em cores contrastantes (branco e vermelho ou branco e preto) para permitir que
+sejam facilmente visualizadas à distância; devem ser mantidas na posição
+vertical, sobre o ponto marcado no piquete.
 
-=== Detalhes e elementos específicos
+image::{img}/lapis.jpg[]
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
+As FICHAS têm forma de ponto de interrogação e são usadas para
+marcar um ponto no terreno, temporariamente, nas operações de
+BALIZAMENTO, ou seja, na determinação de alinhamentos com comprimentos
+superiores ao comprimento total do diastímetro usado. A figura a seguir mostra
+dois tipos de fichas e uma argola que serve para acomodar as fichas.
 
-- Conhecimento de detalhes e elementos específicos.
+image::{img}/fichas.jpg[]
 
-=== Classificação e categorização
+=== Balizamento
 
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
+Quando não é possível medir a distância entre dois pontos utilizando
+somente uma medição com a trena (quando a distância entre os dois pontos é
+maior que o comprimento da trena), costuma-se dividir a distância a ser medida
+em partes, chamadas de lances. A distância final entre os dois pontos será a
+somatória das distâncias de cada lance. A execução da medição utilizando
+lances é descrita a seguir.
 
-- Conhecimento de classificação e categorização; 
+Analisando a figura seguinte o balizeiro de ré (posicionado em A) orienta
+o balizeiro intermediário, cuja posição coincide com o final da trena, para que
+este se mantenha no alinhamento AB.
+  
+image::{img}/distancia-horizontal.jpg[]
 
-=== Princípios e generalizações
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de princípios e generalizações; 
-
-
-=== Teorias, modelos e estruturas
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de teorias, modelos e estruturas.
-
-=== Conteúdos específicos, habilidades e algoritmos
-Conhecimento Procedural:: relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
-
-- Conhecimento de conteúdos específicos, habilidades e algoritmos; 
-
-=== Técnicas específicas e métodos
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
-
-- Conhecimento de técnicas específicas e métodos; 
-
-=== Critérios e percepção de como e quando usar um procedimento específico.
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
-
-- Conhecimento de critérios e percepção de como e quando usar um procedimento específico.
-
-=== Conhecimento estratégico
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
-
-- Conhecimento estratégico; 
-
-=== Contextos preferenciais e situações de aprendizagem (estilos)
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
-
-- Conhecimento sobre atividades cognitivas  incluindo contextos preferenciais e situações de aprendizagem (estilos); 
-
-=== Autoconhecimento
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
-
-- Autoconhecimento
-
-=== Recapitulando
-
-Revisão do que foi aprendido. Não apresentar nada novo.
+Depois de executado o lance, o balizeiro intermediário marca o final da
+trena com uma ficha. O balizeiro de ré, então, coleta a ficha e ocupa a posição do
+balizeiro intermediário, e este, por sua vez, ocupará nova posição ao final do
+diastímetro. Repete-se o processo de deslocamento das balizas (ré e
+intermediária) e de marcação dos lances até que se chegue ao ponto B. É de
+máxima importância que, durante a medição, os balizeiros se mantenham sobre
+o alinhamento AB.

@@ -1,168 +1,216 @@
-== Novo capítulo
+== Teodolito
 
 :cap: cap7
 :img: images/{cap}
 :online: {gitrepo}/blob/master/livro/code/{cap}
 :local: code/{cap}
 
-.Objetivos do capítulo
-____
-Ao final deste capítulo você deverá ser capaz de:
+=== Definição e tipos
 
-1.  *Lembrar* as três hipóteses de previsão e listar os padrões típicos
-de comportamento de dados históricos, *reproduzindo-os* na realização de
-exercícios teóricos, envolvendo os nomes das técnicas de previsão mais
-utilizadas em processos estacionários, com tendência e com
-sazonalidade.
+Os teodolitos são equipamentos destinados à medição direta de
+ângulos, horizontais ou verticais. Atualmente existem diversas
+marcas e modelos de teodolitos, os quais podem ser
+classificados, quanto à forma, em óptico-mecânicos e eletrônicos.
 
-2.  *Entender*  as  diferenças  entre  as  técnicas existentes,
-*comparando* cada uma com as diferentes hipóteses e padrão de dados.
+=== Elementos principais
+Como elementos principais que constituem os teodolitos pode-se citar:
+sistema de eixos, círculos graduados ou limbos, luneta de visada e níveis.
 
-3.  *Escolher* e aplicar, de forma consciente, uma das técnicas,
-*implementando* um programa específico ou utilizando um aplicativo
-disponível  no mercado.
+==== Sistema de eixos
 
-4.  *Analisar*  as  diferentes  medidas  de  erro, *diferenciando-as*,
-*atribuindo* significados de importância e *entendendo* em quais
-circunstâncias  cada uma delas é mais adequada.
+VV : Eixo vertical, principal ou de rotação do teodolito;
 
-5.  *Avaliar* os resultados obtidos por meio do emprego da técnica de
-previsão, *estimando* o impacto da acuracidade e das incertezas
-associadas a todo o processo.
+KK : Eixo secundário ou de rotação da luneta.
 
-____
+ZZ : Eixo de colimação ou linha de visada;
 
-[cols="^13,^10,^10,^10,^10,^10,^10", grid="cols",frame="none"]
+image::{img}/eixos.jpg[scaledwidth="30%"]
+
+==== Círculos graduados (limbos)
+Quanto aos círculos graduados para leituras angulares os mesmos
+podem ter escalas demarcadas de diversas maneiras, como por exemplo: Tinta
+sobre plástico; Ranhuras sobre metal.
+
+==== Luneta de visada
+Dependendo da aplicação do instrumento a capacidade de ampliação
+pode chegar a até 80 vezes (teodolito astronômico WILD T4). Em Topografia
+normalmente utilizam-se lunetas com poder de ampliação de 30 vezes.
+
+==== Níveis
+Os níveis de bolha podem ser esféricos (com menor precisão),
+tubulares, ou digitais, nos equipamentos mais recentes.
+
+=== Procedimento de medida no campo
+
+Os procedimentos para a medição utilizando um teodolito podem ser
+resumidos em:
+
+- instalação do equipamento;
+- focalização e pontaria;
+- leitura da direção.
+
+==== Instalação do equipamento
+Instalar ou estacionar o equipamento significa que o mesmo deverá ser
+nivelado e centrado sobre o ponto topográfico. As medições
+somente poderão iniciar após estas condições serem verificadas.
+O exemplo a seguir demonstra os procedimentos para o
+estacionamento de um determinado teodolito, porém as etapas
+serão as mesmas para outros modelos de equipamentos que
+possuam prumos óticos ou laser.
+
+image::{img}/equipamento.jpg[scaledwidth="20%"]
+
+Para estacionar o equipamento de medida sobre um
+determinado ponto topográfico, o primeiro passo é instalar o
+TRIPÉ sobre o ponto, conforme a figura ao lado ilustra.
+Dois pontos devem ser observados nessa etapa, para facilitar a
+posterior instalação do equipamento: primeiro a base do tripé deve estar o mais
+horizontal possível e segundo, através do orifício existente na base do tripé
+deve-se enxergar o ponto topográfico. Isso pode ser observado na figura
+erminada essa etapa o equipamento já pode ser colocado sobre o tripé,
+acoplando-o à base com o auxílio do parafuso de fixação.
+
+image::{img}/equipamentoA.jpg[]
+
+==== Centralização
+Após o equipamento estar fixo sobre o tripé é necessário realizar a
+centralização e o nivelamento do mesmo. Centrar um equipamento sobre
+um ponto significa que o prolongamento do seu eixo vertical (também
+chamado principal) está passando exatamente sobre o ponto. A figura
+seguinte (à esquerda) mostra o eixo principal (imaginário) passando pelo
+centro do ponto topográfico.
+
+
+[width="60%",cols="1,1",frame="none"]
 |====
-1.2+s| Conhecimento 6+s| Processo Cognitivo
-| Lembrar         |Entender  | Aplicar |  Analisar | Avaliar | Criar
-| Factual  |Objetivo 1|||||
-| Conceitual |Objetivo 2|Objetivo 3||||
-| Procedural |||Objetivo 4|||
-| Metacognitivo ||||||Objetivo 5
-|  2+s|Conhecimento 2+s|Competência 2+s|Habilidade
+| image:{img}/central1.jpg[]
+| image:{img}/central2.jpg[]
 |====
 
-A *elaboração dos objetivos de aprendizagem* e *divisão das seções* do
-capítulo seguem a taxonomia de Bloom revisada, para
-compreender esta classificação recomendo a leitura de  ``Taxonomia de
-Bloom: revisão teórica e apresentação das adequações do instrumento
-para definição de objetivos instrucionai'', disponível em
-http://www.scielo.br/pdf/gp/v17n2/a15v17n2.pdf.
 
-.Dimensão do conhecimento da Taxonomia de Bloom revisada
-image::{img}/bloom.eps[]
+Para fins práticos, esse eixo é materializado pelo fio de prumo,
+prumo ótico ou prumo laser, conforme pode ser visto na figura anterior (à
+direita).
+
+==== Nivelamento
+Nivelar (ou calar) o equipamento é um dos procedimentos fundamentais
+antes da realização de qualquer medição. O nivelamento pode ser dividido em
+duas etapas, uma inicial ou grosseira, utilizando-se o nível esférico, que em
+alguns equipamentos está associado à base dos mesmos, e a outra de precisão
+ou "fina", utilizando-se níveis tubulares, ou mais recentemente, níveis digitais.
+Realiza-se o nivelamento grosseiro, observando-se o deslocamento da bolha
+no nível esférico e realiza-se o nivelamento do mesmo pelo movimento de
+extensão das pernas do tripé.
+
+[width="100%",cols="1^,1^",frame="none",grid="none"]
+|====
+| image:{img}/nivelamento1.jpg[]
+| image:{img}/nivelamento2.jpg[]
+|====
+
+O nivelamento "fino" ou de precisão é realizado com auxílio dos
+parafusos calantes (ou nivelantes), localizados na base do aparelho, e níveis
+tubulares (ou digitais).
+
+Inicialmente alinha-se o nível tubular a dois dos parafusos calantes.
+Atuando nesses dois parafusos alinhados ao nível tubular, faz-se com que a
+bolha se desloque até a posição central do nível. Cabe salientar que os
+parafusos devem ser girados em sentidos opostos, a fim de calar a bolha do
+nível, conforme as figuras seguintes.
+
+[width="100%",cols="1,1,1",frame="none",grid="none"]
+|====
+| image:{img}/giro1.jpg[width="70%"]
+| image:{img}/giro2.jpg[width="70%"]
+| image:{img}/giro3.jpg[width="50%"]
+|====
+
+Após a bolha estar centrada, gira-se o equipamento de 90°, de forma que
+o nível tubular esteja agora ortogonal à linha definida anteriormente. Atuando-se
+somente no parafuso que está alinhado com o nível realiza-se, novamente, a
+centralização da bolha.
+
+[width="100%",cols="1^,1^",frame="none",grid="none"]
+|====
+| image:{img}/alingamento1.jpg[]
+| image:{img}/alingamento2.jpg[]
+|====
+
+Ao terminar este procedimento, verifica-se a posição do prumo. Se o
+mesmo não está sobre o ponto, solta-se o parafuso de fixação do equipamento e
+desloca-se o mesmo com cuidado até que o prumo esteja coincidindo com o
+ponto. Deve-se tomar o cuidado de não rotacionar o equipamento durante este
+procedimento, realizando somente uma translação do mesmo.
+
+Feito isso, deve-se verificar se o instrumento está calado e caso isso não
+seja verificado, realiza-se novamente o nivelamento fino. Esse procedimento
+deve ser repetido até que o equipamento esteja perfeitamente calado e
+centrado. Ao final dessa etapa, o equipamento estará pronto para a realização
+das medições.
 
 
-=== Terminologia
-
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
-
-- Conhecimento da Terminologia; 
-
-=== Detalhes e elementos específicos
-
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
-
-- Conhecimento de detalhes e elementos específicos.
-
-=== Classificação e categorização
-
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de classificação e categorização; 
-
-=== Princípios e generalizações
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de princípios e generalizações; 
+=== Focalização
+Focar a luneta é a operação que tem por fim fazer a coincidência do
+plano do retículo (fios ou riscos vistos através da luneta) e do plano da imagem
+do objeto visado com o plano focal comum às lentes objetiva (lente que fica mais
+próxima do objeto observado) e à ocular (lente que fica próxima ao olho). O
+procedimento de focalização inicia-se pela focalização dos retículos e depois do
+objeto.
 
 
-=== Teorias, modelos e estruturas
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
 
-- Conhecimento de teorias, modelos e estruturas.
+==== Focalização dos retículos
+Os retículos devem estar focalizados de forma que estejam sendo vistos
+com nitidez e bem definidos. Para facilitar esse procedimento, pode-se observar
+uma superfície clara, como uma parede branca ou mesmo o céu, tomando o
+cuidado de NÃO APONTAR PARA O SOL, PARA EVITAR DANOS
+IRREVERSÍVEIS À VISÃO.
 
-=== Conteúdos específicos, habilidades e algoritmos
-Conhecimento Procedural:: relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+image::{img}/focalizando.jpg[scaledwidth="20%"]
 
-- Conhecimento de conteúdos específicos, habilidades e algoritmos; 
+==== Focalização do objeto
+Feita a focalização dos retículos, faz-se a pontaria ao objeto desejado e
+realiza-se a focalização do mesmo, conforme exemplificado na figura seguinte.
 
-=== Técnicas específicas e métodos
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+image::{img}/focalizacao.jpg[scaledwidth="60%"]
 
-- Conhecimento de técnicas específicas e métodos; 
+=== Leitura de ângulos no teodolito
 
-=== Critérios e percepção de como e quando usar um procedimento específico.
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+A leitura de ângulos depende do tipo de aparelho usado. Aqui será
+mostrado o procedimento para leitura de ângulos em um teodolito ótpico-
+mecânico da marca MOM disponível na UFPB - Campus III, na cidade de
+Bananeiras – PB.
 
-- Conhecimento de critérios e percepção de como e quando usar um procedimento específico.
+Os ângulos são lidos através de uma ocular, localizada junto à luneta. Os
+ângulos são lidos em GRAUS, no sistema sexagesimal, sendo que apenas
+podem ser lidos os graus e os minutos. A figura seguinte mostra um esquema,
+que representa o que se pode ver ao se observar a ocular de leitura de ângulos.
 
-=== Conhecimento estratégico
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+image::{img}/regua.pdf[scaledwidth="50%"]
 
-- Conhecimento estratégico; 
+Os ângulos horizontais (lidos na parte superior) e os verticais são lidos
+(lidos na parte inferior) da mesma forma. Os numerais maiores correspondem
+aos graus, devendo-se ler o que possui “fio” que corta a escala dos minutos
+(numerada de 0 a 6). Nessa escala, cada linha corresponde a 1 minuto. Dessa
+forma o numeral 1, corresponde a 10 minutos, 2 a 20 minutos, e assim por diante
+até o numeral 6, que corresponde a 60 minutos. Assim, na figura anterior pode-
+se ler os seguintes ângulos: H = 77° 04' e V = 91° 56'.
 
-=== Contextos preferenciais e situações de aprendizagem (estilos)
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+=== Procedimento de determinação e leitura de ângulo horizontal
 
-- Conhecimento sobre atividades cognitivas  incluindo contextos preferenciais e situações de aprendizagem (estilos); 
+Observando-se a figura seguinte pode-se descrever a determinação de
+um ângulo horizontal.
 
-=== Autoconhecimento
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+Faz-se pontaria (acima da luneta existe dispositivo para se fazer a
+pontaria) na primeira baliza (Direção AB), focaliza-se o objeto e “zera-se” a
+medida do ângulo horizontal. Isto é, por meio de dispositivo, na lateral do
+aparelho, muda-se o ângulo horizontal até que o fio correspondente ao ângulo
+de 360° (que ocupa a mesma posição que 0°) se sobreponha ao primeiro traço
+da escala de minutos, assim a leitura seria 360° 00', que nesse caso equivale a
+dizer: 00° 00'.
 
-- Autoconhecimento
+image::{img}/angulo-horizontal.jpg[scaledwidth="80%"]
 
-=== Recapitulando
-
-Revisão do que foi aprendido. Não apresentar nada novo.
+Depois, gira-se o aparelho, no sentido horário, e faz-se nova pontaria,
+agora na segunda baliza; (Direção AC), focaliza-se o objeto e faz-se a leitura do
+ângulo correspondente (> BAC).

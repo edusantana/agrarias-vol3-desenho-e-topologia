@@ -1,168 +1,138 @@
-== Novo capítulo
+== Triângulos
 
 :cap: cap5
 :img: images/{cap}
 :online: {gitrepo}/blob/master/livro/code/{cap}
 :local: code/{cap}
 
-.Objetivos do capítulo
-____
-Ao final deste capítulo você deverá ser capaz de:
+=== Definição
 
-1.  *Lembrar* as três hipóteses de previsão e listar os padrões típicos
-de comportamento de dados históricos, *reproduzindo-os* na realização de
-exercícios teóricos, envolvendo os nomes das técnicas de previsão mais
-utilizadas em processos estacionários, com tendência e com
-sazonalidade.
+TRIÂNGULO é um polígono de três lados. É o polígono que possui o
+menor número de lados. Talvez seja o polígono mais importante que existe.
 
-2.  *Entender*  as  diferenças  entre  as  técnicas existentes,
-*comparando* cada uma com as diferentes hipóteses e padrão de dados.
+=== Classificação quanto aos lados
 
-3.  *Escolher* e aplicar, de forma consciente, uma das técnicas,
-*implementando* um programa específico ou utilizando um aplicativo
-disponível  no mercado.
-
-4.  *Analisar*  as  diferentes  medidas  de  erro, *diferenciando-as*,
-*atribuindo* significados de importância e *entendendo* em quais
-circunstâncias  cada uma delas é mais adequada.
-
-5.  *Avaliar* os resultados obtidos por meio do emprego da técnica de
-previsão, *estimando* o impacto da acuracidade e das incertezas
-associadas a todo o processo.
-
-____
-
-[cols="^13,^10,^10,^10,^10,^10,^10", grid="cols",frame="none"]
+[width="70%",cols="1,2,1",frame="topbot"]
 |====
-1.2+s| Conhecimento 6+s| Processo Cognitivo
-| Lembrar         |Entender  | Aplicar |  Analisar | Avaliar | Criar
-| Factual  |Objetivo 1|||||
-| Conceitual |Objetivo 2|Objetivo 3||||
-| Procedural |||Objetivo 4|||
-| Metacognitivo ||||||Objetivo 5
-|  2+s|Conhecimento 2+s|Competência 2+s|Habilidade
+| Triângulo Equilátero 
+| Os três lados têm medidas iguais
+| image:{img}/triangulo-equilatero.jpg[]
+| Triângulo Isósceles 
+| Dois lados têm a mesma medida
+| image:{img}/triangulo-isoceles.jpg[]
+| Triângulo Escaleno 
+| Todos os três lados têm medidas diferentes
+| image:{img}/triangulo-escaleno.jpg[]
 |====
 
-A *elaboração dos objetivos de aprendizagem* e *divisão das seções* do
-capítulo seguem a taxonomia de Bloom revisada, para
-compreender esta classificação recomendo a leitura de  ``Taxonomia de
-Bloom: revisão teórica e apresentação das adequações do instrumento
-para definição de objetivos instrucionai'', disponível em
-http://www.scielo.br/pdf/gp/v17n2/a15v17n2.pdf.
-
-.Dimensão do conhecimento da Taxonomia de Bloom revisada
-image::{img}/bloom.eps[]
 
 
-=== Terminologia
+=== Classificação quanto aos ângulos
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
+[width="70%",cols="1,2,1",frame="topbot"]
+|====
+| Triângulo Acutângulo
+| Todos os ângulos internos são agudos, isto é, as
+medidas dos ângulos são menores do que 90°
+| image:{img}/acutangulo.jpg[]
+| Triângulo Obtusângulo
+| Um ângulo interno é obtuso, isto é, possui um
+ângulo com medida maior do que 90°
+| image:{img}/obtusangulo.jpg[]
+| Triângulo Retângulo
+| Possui um ângulo interno reto, isto é, igual a 90°
+| image:{img}/retangulo.jpg[]
+|====
 
-- Conhecimento da Terminologia; 
+=== ALTURA
 
-=== Detalhes e elementos específicos
+É um segmento de reta traçado a partir de um vértice de forma a
+encontrar o lado oposto ao vértice (ou o prolongamento desse lado) formando
+um ângulo reto. Assim para cada lado (base) há uma altura correspondente. No
+triângulo ABC a seguir, BH é a altura correspondente ao lado AC (base) do
+triângulo.
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
+image::{img}/abch.jpg[]
 
-- Conhecimento de detalhes e elementos específicos.
+A determinação da altura do triângulo pode ser feita por intermédio de
+um esquadro. Alinha-se um dos lados do esquadro (que contém o ângulo reto)
+com um dos lados do triângulo (AC, na figura anterior) “desliza-se” o esquadro
+ao longo desse lado (ou de seu prolongamento) até que o outro do esquadro
+esteja alinhado com o vértice oposto (B, na figura anterior) e traça-se o
+segmento reto, que determina a altura do triângulo.
 
-=== Classificação e categorização
+=== Área do triângulo
+A área de um triângulo é a metade do produto da medida da base pela
+medida da altura, isto é:
 
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
+[latexmath]
+++++
+\[
+A_{T} = \frac{b \times h}{2}
+\]
+++++
 
-- Conhecimento de classificação e categorização; 
+A área do triângulo pode ser determinada, sem necessidade de se
+determinar a altura. Pode-se calcular a área de um triângulo a partir do
+conhecimento de seus lados, por meio da FÓRMULA DE HÉRON:
 
-=== Princípios e generalizações
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
+[latexmath]
+++++
+\[
+A_{T} = \sqrt{S \times (S-a) \times (S-b) \times (S-c)}
+\]
+++++
 
-- Conhecimento de princípios e generalizações; 
+[latexmath]
+++++
+\[
+S = \frac{a + b + c}{2}
+\]
+++++
+
+____
+Em que: 
+
+A~T~ = área do triângulo; +
+a,b,c = lados do triângulo; +
+S = semi-perímetro
+____
 
 
-=== Teorias, modelos e estruturas
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
+=== Construções de triângulos
 
-- Conhecimento de teorias, modelos e estruturas.
+==== Conhecendo-se dois lados e o ângulo entre eles
 
-=== Conteúdos específicos, habilidades e algoritmos
-Conhecimento Procedural:: relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+- Sobre uma reta traça-se o segmento CD;
+- Transporta-se o ângulo dado de modo que um dos lados do ângulo coincida
+com a semi-reta CD, traçando-se uma nova reta;
+- Sobre essa reta traça-se o segmento AB;
+- Nota-se que o segmento BD está completamente determinado. Resta traçá-lo.
 
-- Conhecimento de conteúdos específicos, habilidades e algoritmos; 
+image::{img}/segmento.jpg[scaledwidth="30%"]
 
-=== Técnicas específicas e métodos
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+=== Conhecendo-se os três lados do triângulo
+- Sobre uma reta transporta-se o segmento AB;
+- Constroem-se circunferências com centro em A e B e raios CD e EF,
+respectivamente;
+- A partir do ponto determinado pela intersecção das circunferências traçam-se
+os segmentos com origem nesse ponto e extremidades nos pontos A e B. Esses
+segmentos têm comprimentos CD e EF, respectivamente.
 
-- Conhecimento de técnicas específicas e métodos; 
+image::{img}/segmentos.jpg[]
 
-=== Critérios e percepção de como e quando usar um procedimento específico.
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+==== Conhecendo-se um lado e os seus dois ângulos adjacentes
 
-- Conhecimento de critérios e percepção de como e quando usar um procedimento específico.
+- Sobre uma reta transporta-se um dos ângulos;
 
-=== Conhecimento estratégico
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+- Sobre um dos lados do ângulo transporta-se o segmento AB, com uma das
+suas extremidades no vértice do ângulo;
 
-- Conhecimento estratégico; 
+- Transporta-se o outro ângulo, com um dos lados sobre a semi-reta BA e com o
+vértice em B;
 
-=== Contextos preferenciais e situações de aprendizagem (estilos)
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+- Pode-se ver agora que o terceiro vértice do triângulo já está completamente
+determinado. Resta traçar os segmentos. Observe que os outros dois lados e o
+terceiro ângulo ficam completamente determinados.
 
-- Conhecimento sobre atividades cognitivas  incluindo contextos preferenciais e situações de aprendizagem (estilos); 
-
-=== Autoconhecimento
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
-
-- Autoconhecimento
-
-=== Recapitulando
-
-Revisão do que foi aprendido. Não apresentar nada novo.
+image::{img}/terceiro.jpg[scaledwidth="70%"]

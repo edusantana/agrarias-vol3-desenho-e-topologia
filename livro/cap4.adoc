@@ -1,168 +1,228 @@
-== Novo capítulo
+== Polígonos
 
 :cap: cap4
 :img: images/{cap}
 :online: {gitrepo}/blob/master/livro/code/{cap}
 :local: code/{cap}
 
-.Objetivos do capítulo
-____
-Ao final deste capítulo você deverá ser capaz de:
+=== Linha poligonal
 
-1.  *Lembrar* as três hipóteses de previsão e listar os padrões típicos
-de comportamento de dados históricos, *reproduzindo-os* na realização de
-exercícios teóricos, envolvendo os nomes das técnicas de previsão mais
-utilizadas em processos estacionários, com tendência e com
-sazonalidade.
+Uma linha poligonal aberta é formada por segmentos de reta
+consecutivos e não colineares, ou seja, segmentos de reta que
+não estão alinhados na mesma reta e que não se fecham.
 
-2.  *Entender*  as  diferenças  entre  as  técnicas existentes,
-*comparando* cada uma com as diferentes hipóteses e padrão de dados.
+image::{img}/linha-poligonal.jpg[]
 
-3.  *Escolher* e aplicar, de forma consciente, uma das técnicas,
-*implementando* um programa específico ou utilizando um aplicativo
-disponível  no mercado.
+=== Polígono
+POLÍGONO é uma figura geométrica, formada por uma linha poligonal
+fechada, ou seja, formada por segmentos consecutivos, não colineares que se
+fecham.
 
-4.  *Analisar*  as  diferentes  medidas  de  erro, *diferenciando-as*,
-*atribuindo* significados de importância e *entendendo* em quais
-circunstâncias  cada uma delas é mais adequada.
+image::{img}/poligono.jpg[]
 
-5.  *Avaliar* os resultados obtidos por meio do emprego da técnica de
-previsão, *estimando* o impacto da acuracidade e das incertezas
-associadas a todo o processo.
 
-____
+=== Nomenclatura
+De acordo com o número de lados, os polígonos recebem os seguintes
+nomes:
 
-[cols="^13,^10,^10,^10,^10,^10,^10", grid="cols",frame="none"]
+[width="80%",cols="1,1,1,1",frame="topbot",options="header",align="center"]
 |====
-1.2+s| Conhecimento 6+s| Processo Cognitivo
-| Lembrar         |Entender  | Aplicar |  Analisar | Avaliar | Criar
-| Factual  |Objetivo 1|||||
-| Conceitual |Objetivo 2|Objetivo 3||||
-| Procedural |||Objetivo 4|||
-| Metacognitivo ||||||Objetivo 5
-|  2+s|Conhecimento 2+s|Competência 2+s|Habilidade
+| N° de lados | Polígono | N° de lados | Polígono
+| 1 | não existe | 11 | undecágono
+| 2 | não existe | 12 | dodecágono
+| 3 | triângulo | 13 | tridecágono
+| 4 | quadrilátero | 14 | tetradecágono
+| 5 | pentágono | 15 | pentadecágono
+| 6 | hexágono | 16 | hexadecágono
+| 7 | heptágono | 17 | heptadecágono
+| 8 | octógono | 18 | octadecágono
+| 9 | eneágono | 19 | eneadecágono
+| 10 | decágono | 20 | icoságono
 |====
 
-A *elaboração dos objetivos de aprendizagem* e *divisão das seções* do
-capítulo seguem a taxonomia de Bloom revisada, para
-compreender esta classificação recomendo a leitura de  ``Taxonomia de
-Bloom: revisão teórica e apresentação das adequações do instrumento
-para definição de objetivos instrucionai'', disponível em
-http://www.scielo.br/pdf/gp/v17n2/a15v17n2.pdf.
+=== PRINCIPAIS ELEMENTOS DE UM POLÍGONO
 
-.Dimensão do conhecimento da Taxonomia de Bloom revisada
-image::{img}/bloom.eps[]
+VÉRTICES:: pontos extremos do polígono (A, B e C, no primeiro
+polígono da figura anterior);
+
+LADOS:: segmento formado por dois vértices consecutivos (AC, CB
+e BA, no primeiro polígono da figura anterior);
+
+ÂNGULOS INTERNOS:: ângulos, localizados na região interna dos
+polígonos, formados por dois lados consecutivos (>A, >B, >C e >D no último
+polígono da figura anterior).
+
+=== PERÍMETRO
+
+PERÍMETRO é o nome que se dá ao contorno de uma figura, de um
+terreno, de uma área. Calcula-se o perímetro de um polígono por meio da
+soma de todos os seus lados.
+
+=== ÁREA
+ÁREA é a medida da região que compreende o contorno e a região
+interna de um polígono.
+
+Para a unidade de medida de área pode-se usar um quadrado cujo lado tem
+uma unidade de comprimento.
+
+image::{img}/unidade-quadrado.jpg[]
+
+A figura seguinte mostra um quadrilátero especial, chamado retângulo.
+O retângulo ABCD, mede 3 unidades (3u) de comprimento e 2 unidades (2u) de
+altura. O segmento horizontal que passa no meio do retângulo e os
+segmentos verticais, dividem o retângulo em seis quadrados tendo, cada um, 1
+unidade de área.
+
+image::{img}/retanguloABC.jpg[]
+
+A área do retângulo ABCD é a soma das áreas destes seis quadrados.
+Nota-se que o número de unidades de área do retângulo coincide com o obtido
+pelo produto do número de unidades do comprimento da base AB (3u) pelo
+número de unidades da altura BC (2u). Ou seja: ÁREA = 3u x 2u = 6u2
+
+Chamando-se o lado horizontal (AB ou DC) do retângulo de base (b) e o
+lado vertical (AD ou BC) altura (h), pode-se determinar a área AR do retângulo
+pelo produto da medida da base b pela medida da altura h.
+
+[latexmath]
+++++
+\[
+A_{R} = b \times h
+\]
+++++
 
 
-=== Terminologia
+Um quadrado é um caso particular de retângulo cuja medida da base é
+igual à medida da altura. Assim, a área do quadrado pode ser obtida pelo
+produto da medida da base por si mesma. Essa é a razão pela qual a segunda
+potência do número x, indicada por x^2^, tem o nome de quadrado de x, e a área
+A~Q~ do quadrado é obtida pelo quadrado da medida do lado x.
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
-
-- Conhecimento da Terminologia; 
-
-=== Detalhes e elementos específicos
-
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
-
-- Conhecimento de detalhes e elementos específicos.
-
-=== Classificação e categorização
-
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de classificação e categorização; 
-
-=== Princípios e generalizações
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de princípios e generalizações; 
+[latexmath]
+++++
+\[
+A_{Q} = x^{2}
+\]
+++++
 
 
-=== Teorias, modelos e estruturas
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
+Alguns outros polígonos também podem ter suas áreas calculadas por
+fórmulas. Como por exemplo, outro quadrilátero especial chamado TRAPÉZIO.
+Em um trapézio existe uma base menor de medida b1, uma base maior de
+medida b2, sendo a altura (h) a distância entre essas duas bases.
 
-- Conhecimento de teorias, modelos e estruturas.
+A área A~TP~ do trapézio é o produto da média aritmética entre as medidas
+das bases pela medida da altura, isto é:
 
-=== Conteúdos específicos, habilidades e algoritmos
-Conhecimento Procedural:: relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+[latexmath]
+++++
+\[
 
-- Conhecimento de conteúdos específicos, habilidades e algoritmos; 
+A_{TP} = \frac{ (b_{1} + b_{2}) \times h}{2}
+\]
+++++
 
-=== Técnicas específicas e métodos
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
 
-- Conhecimento de técnicas específicas e métodos; 
+No entanto a maioria dos polígonos não possui uma fórmula especial
+para o cálculo de sua área. Porém qualquer polígono pode ser subdividido em
+TRIÂNGULOS. Sabendo-se calcular a área de triângulos, pode-se calcular a
+área de qualquer polígono. Pela sua importância, os triângulos serão estudados
+separadamente a seguir. Antes disso é importante conceituar os polígonos
+convexos.
 
-=== Critérios e percepção de como e quando usar um procedimento específico.
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
 
-- Conhecimento de critérios e percepção de como e quando usar um procedimento específico.
+=== POLÍGONO CONVEXO
 
-=== Conhecimento estratégico
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+POLÍGONO CONVEXO é um polígono que não apresenta reentrâncias
+no seu corpo. Isso significa que todo segmento de reta, cujas extremidades
+estão dentro da região interna de um polígono, também estará totalmente
+contido na região interna desse polígono.
 
-- Conhecimento estratégico; 
+image::{img}/conexo.jpg[]
 
-=== Contextos preferenciais e situações de aprendizagem (estilos)
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+Pode-se dizer que um polígono convexo possui todos os seus ângulos
+internos menores que 180°.
 
-- Conhecimento sobre atividades cognitivas  incluindo contextos preferenciais e situações de aprendizagem (estilos); 
+NOTE: Qualquer polígono convexo pode ser subdividido, no mínimo, em *(n - 2)*
+TRIÂNGULOS. Em que *n* = número de lados do polígono.
 
-=== Autoconhecimento
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+Por exemplo, a área do polígono ABCDEFX, que possui 7 lados, pode ser obtida
+pela decomposição do polígono em (7 – 2) = 5 triângulos.
 
-- Autoconhecimento
+image::{img}/poligonoABCDEFX.jpg[]
 
-=== Recapitulando
+Dessa forma a área do polígono pode ser obtida pela soma das áreas
+desses triângulos, ou seja:
 
-Revisão do que foi aprendido. Não apresentar nada novo.
+
+[latexmath]
+++++
+\[
+A_{ABCDEFX} = A_{XAB} + A_{XBC} + ... + A_{XEF}
+\]
+++++
+
+
+
+[NOTE]
+====
+Para polígonos convexos a seguinte relação se verifica:
+
+
+[latexmath]
+++++
+\[
+S_{i} = (n - 2) \times 180^{\circ}
+\]
+++++
+
+Em que: S~i~ = soma dos ângulos internos, e n = número de lados do polígono.
+Essa relação é importante, quando são determinados os ângulos internos de
+terrenos poligonais, podendo servir como termo de conferência.
+
+====
+
+
+=== Cálculo de área real a partir de área no papel (desenhada em escala)
+
+Seja um quadro de 1 cm de lado. Sabe-se que a área do quadrado A~Q~ = L
+x L = L^2^, sendo L = valor do lado do quadrado. Nesse caso L = 1 cm, então A~Q~ =
+(1 cm)^2^ = 1 cm^2^.
+
+Supondo que esse quadrado tenha sido desenhado na escala 1:F, sabe-
+se que para se obter a medida real do quadrado (ou seja a medida real do lado
+de um terreno quadrado) basta-se multiplicar a medida no papel (1 cm) pelo fator
+de escala (F) e dividir esse valor por 100 (no caso de se desejar obter a medida
+real em metros).
+
+Para se calcular a área real desse terreno quadrado, em m2, pode-se
+proceder da seguinte forma: obter o lado real em metros (multiplicando-se por F
+e dividindo-se por 100) e elevar o valor do lado ao quadrado, ou seja: ÁREA
+REAL = (1cm x F/100)^2^, isto é:
+
+[latexmath]
+++++
+\[
+A_{REAL} = \frac{1 cm^{2} \times F^{2}}{10000}
+\]
+++++
+
+
+Observando-se que 1 cm^2^ corresponde a área do quadrado no papel, pode-se
+dizer que, de uma maneira geral:
+
+[latexmath]
+++++
+\[
+A_{REAL} = \frac{A_{PAPEL} \times F^{2}}{10000}
+\]
+++++
+
+
+____
+Em que: 
+
+A~REAL~ = Área real de um terreno (m^2^); +
+A~PAPEL~ = Área da figura desenhada no papel (cm^2^); +
+F = Fator de escala. +
+____
