@@ -65,7 +65,10 @@ ____
 Sendo a escala 1:500, o fator de escala (F) é igual a 500. Essa escala
 informa, por exemplo, que uma linha de 1cm em planta representa uma linha de
 500 cm no terreno, ou seja, cada 1cm no papel corresponde a 5m, na realidade.
-.
+
+[TIP]
+====
+
 Para determinação de distâncias reais a partir das distâncias
 representadas no papel, em uma determinada escala (e vice-versa) pode-se
 usar a equação, anteriormente mencionada. No entanto para distâncias reais
@@ -90,3 +93,5 @@ obtém-se a distância no papel, em centímetros.
 E multiplicando-se a distância no papel, em centímetros, por F e
 dividindo-se por 100 obtém-se a distância real em metros.
 ____
+
+====

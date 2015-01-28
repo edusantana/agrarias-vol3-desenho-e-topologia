@@ -12,7 +12,7 @@ menor número de lados. Talvez seja o polígono mais importante que existe.
 
 === Classificação quanto aos lados
 
-[width="70%",cols="1,2,1",frame="topbot"]
+[width="100%",cols="2^h,3^,1^",frame="topbot",valign="middle"]
 |====
 | Triângulo Equilátero 
 | Os três lados têm medidas iguais
@@ -29,7 +29,7 @@ menor número de lados. Talvez seja o polígono mais importante que existe.
 
 === Classificação quanto aos ângulos
 
-[width="70%",cols="1,2,1",frame="topbot"]
+[width="100%",cols="2^h,3^,1^",frame="topbot",valign="middle"]
 |====
 | Triângulo Acutângulo
 | Todos os ângulos internos são agudos, isto é, as
@@ -44,7 +44,7 @@ medidas dos ângulos são menores do que 90°
 | image:{img}/retangulo.jpg[]
 |====
 
-=== ALTURA
+=== Altura
 
 É um segmento de reta traçado a partir de um vértice de forma a
 encontrar o lado oposto ao vértice (ou o prolongamento desse lado) formando
@@ -52,7 +52,7 @@ um ângulo reto. Assim para cada lado (base) há uma altura correspondente. No
 triângulo ABC a seguir, BH é a altura correspondente ao lado AC (base) do
 triângulo.
 
-image::{img}/abch.jpg[]
+image::{img}/abch.eps[]
 
 A determinação da altura do triângulo pode ser feita por intermédio de
 um esquadro. Alinha-se um dos lados do esquadro (que contém o ângulo reto)
@@ -109,9 +109,9 @@ com a semi-reta CD, traçando-se uma nova reta;
 - Sobre essa reta traça-se o segmento AB;
 - Nota-se que o segmento BD está completamente determinado. Resta traçá-lo.
 
-image::{img}/segmento.jpg[scaledwidth="30%"]
+image::{img}/segmento.eps[scaledwidth="60%"]
 
-=== Conhecendo-se os três lados do triângulo
+==== Conhecendo-se os três lados do triângulo
 - Sobre uma reta transporta-se o segmento AB;
 - Constroem-se circunferências com centro em A e B e raios CD e EF,
 respectivamente;
@@ -119,7 +119,7 @@ respectivamente;
 os segmentos com origem nesse ponto e extremidades nos pontos A e B. Esses
 segmentos têm comprimentos CD e EF, respectivamente.
 
-image::{img}/segmentos.jpg[]
+image::{img}/segmentos.eps[]
 
 ==== Conhecendo-se um lado e os seus dois ângulos adjacentes
 
@@ -135,4 +135,4 @@ vértice em B;
 determinado. Resta traçar os segmentos. Observe que os outros dois lados e o
 terceiro ângulo ficam completamente determinados.
 
-image::{img}/terceiro.jpg[scaledwidth="70%"]
+image::{img}/terceiro.eps[scaledwidth="70%"]

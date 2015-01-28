@@ -1,0 +1,307 @@
+== Altimetria
+
+:cap: cap11
+:img: images/{cap}
+:online: {gitrepo}/blob/master/livro/code/{cap}
+:local: code/{cap}
+
+=== Cota, altitude e diferença de nível
+
+Altimetria é a parte da topografia que tem como finalidade o
+estudo do relevo do terreno, por
+meio de determinações de
+distâncias verticais (“alturas”) de pontos do terreno,
+em relação a uma superfície de referência,
+chamada referência de nível (RN).
+
+image::{img}/estudo-relevo.jpg[]
+
+Quando a RN é tomada igual a uma
+superfície arbitrária qualquer a altura vertical
+determinada é denominada de COTA. Quando RN é
+tomada igual ao nível médio do mar, a altura vertical
+determinada é denominada de ALTITUDE.
+
+A diferença, em valor absoluto, entre as cotas (ou altitudes) de dois
+pontos é chamada de DIFERENÇA DE NÍVEL.
+
+=== Tipos de nivelamentos
+As operações de campo de trabalhos topográficos de altimetria são
+denominadas de NIVELAMENTO.
+
+Os principais tipos de nivelamento são:
+
+==== Nivelamento barométrico
+
+Baseia-se na diferença de pressão com a altitude, tendo como princípio
+que, para um determinado ponto da superfície terrestre, o valor da altitude é
+inversamente proporcional ao valor da pressão atmosférica.
+
+==== Nivelamento trigonométrico
+
+Baseia-se na medida de distâncias horizontais e ângulos de inclinação
+da luneta para a determinação da cota ou altitude de um ponto através de
+relações trigonométricas.
+
+==== Nivelamento geométrico
+
+Esse método diferencia-se dos demais por está baseado
+somente na leitura de réguas ou miras graduadas, não envolvendo
+ângulos. É o mais exato dos nivelamentos. Nesse método a luneta do
+teodolito é usada sempre em posição horizontal, por isso outro
+equipamento pode ser usado em seu lugar, o NÍVEL, que é um
+instrumento utilizado para a determinação de planos horizontais.
+
+image::{img}/nivelamento.jpg[]
+
+As principais partes dos NÍVEIS são: Luneta; Ocular com fios do
+retículo e estadimédicos; Nível de bolha (circular, tubular e bolha
+bipartida); Dispositivos de calagem.
+
+No nivelamento geométrico os dados são colhidos através de visadas
+horizontais. Consiste, portanto, em criar um plano horizontal e determinar as
+interseções deste plano com uma série de verticais levantadas nos pontos a
+nivelar e em seguida obter a distância vertical desses pontos ao plano de
+referência (RN).
+
+==== Determinação de cotas
+São realizadas a partir de leituras feitas na estádia. Essas leituras são
+feitas da mesma forma que em estadimetria, só que, em lugar dos fios
+estadimétricos, é usado apenas o FIO MÉDIO HORIZONTAL da luneta.
+
+=== Definições
+
+Estação:: Local em que é estacionado o teodolito (ou o nível) podendo ficar
+alinhado, ou não, com os pontos em que se deseja determinar
+as cotas
+
+Nivelamento geométrico simples:: quando todas as cotas do
+nivelamento são obtidas a partir de uma única estação.
+
+image::{img}/nivelamento-simples.jpg[scaledwidth="40%"]
+
+Nivelamento geométrico composto:: Devido aos desníveis
+acentuados e extensão dos pontos a nivelar, se torna
+necessário estacionar o aparelho em mais de uma posição,
+para se nivelar o local em estudo. Então se decompõe o trecho a nivelar em
+trechos menores e realiza-se uma sucessão de nivelamentos geométricos
+simples, constituindo-se assim o nivelamento geométrico composto.
+
+image::{img}/nivelamento-composto.jpg[scaledwidth="50%"]
+
+Estacas:: Pontos em que se pretende determinar as cotas.
+
+Trecho:: Conjunto de pontos (estacas) cujas cotas podem ser determinadas a
+partir de uma única estação, ou seja, cada trecho corresponde a um nivelamento
+geométrico simples.
+
+Visada:: Leitura feita com o aparelho sobre uma estádia, localizada em uma
+estaca.
+
+Visada Ré (RÉ):: Primeira visada de um trecho (não necessariamente para
+trás).
+
+Visada Vante de Mudança (VM):: Última visada de um trecho.
+
+Visada Vante Intermediária (VI):: Qualquer visada entre a primeira e a última de
+um trecho.
++
+As visadas Ré, vante intermediária e vante de mudança podem ser observadas
+na figura seguinte. Notar que nessa figura a vante intermediária está indicada
+apenas como vante.
+
+image::{img}/visadas.jpg[scaledwidth="100%"]
+
+Altura do Instrumento (AI):: Distância do fio médio da luneta do aparelho à
+referência de nível (RN), ou seja, a altura do instrumento é a cota do fio médio da
+luneta do aparelho. Alguns autores para evitar que essa denominação seja
+confundida com o tamanho do aparelho, preferem usar o termo Altura do Plano
+de Visada (APV).
+
+
+
+=== Formulário utilizado
+
+[latexmath]
+++++
+\[
+A_{I} = COTA + RE
+\]
+++++
+
+[latexmath]
+++++
+\[
+COTA = A_{I} - VANTE
+\]
+++++
+
+____
+Em que: 
+
+A~I~ = Altura do instrumento; +
+RÉ = Visada Ré; +
+VANTE = Qualquer visada vante (intermediária ou de mudança)
+____
+
+=== Planilha de campo
+
+As medições feitas em campo devem ser anotadas em uma planilha. A
+seguir um exemplo de uma planilha de campo bastante simples.
+
+[width="70%",frame="topbot",options="header"]
+|====
+| ESTACA | RÉ (m) | VI (m) | VM (m)
+|         |       |         |
+|====
+
+=== Planilha de escritório
+A partir da planilha de campo preenche-se a planilha de escritório, com a
+finalidade de se determinar as cotas de todos os pontos (estacas). Essa planilha
+é obtida acrescentando-se as colunas AI e COTA, na planilha de campo.
+
+[width="80%",frame="topbot",options="header",cols="3^,3^,3^,3^,3^,4^"]
+|====
+| ESTACA | RÉ (m) | AI (m) | VI (m) | VM (m) | COTA (m)
+|         |       |         |       |         |
+|====
+
+
+=== Preenchimento da planilha de escritório
+
+a. A cota da estaca inicial é adotada, geralmente, igual a 100m ou 1000m, de
+forma que todas as cotas sejam determinadas com valores positivo, ou seja, que
+estejam todos os pontos acima da referência de nível (RN).
+
+b. Após uma visada RÉ deve-se determinar a altura do instrumento (AI). Essa
+determinação corresponde à cota do fio médio do aparelho, que está em uma
+estação, portanto a anotação correspondente à altura do instrumento (AI) deve
+ser feita em uma linha, em que os espaços correspondentes à ESTAÇÃO e à
+COTA devem ser preenchidos com (*), (-), ou deixadas em branco.
+
+c. Após uma visada vante de mudança (VM) o aparelho muda de estação e em
+seguida faz-se uma visada RÉ, na mesma estaca. Assim, na linha em que
+estiver marcada uma visada vante de mudança (VM) também estará uma visada
+RÉ, a não ser que se trate da estaca final de um nivelamento.
+
+=== Exemplo resolvido
+Seja a situação de campo ilustrada pela figura seguinte. Nessa figura o
+Plano de Referência significa a Referência de Nível (RN). APV = Altura do Plano
+de Visada, ou seja, Altura do Instrumento. Os algarismos romanos I e II
+correspondem às estações, ou seja, locais em que o aparelho foi estacionado.
+As letras A, B, C, D, E, E, F e G correspondem aos pontos (estacas) aonde a
+estádia foi colocada e foram feitas as leituras indicadas. Notar que no
+nivelamento só foi usado um aparelho e uma mira. A figura apenas ilustra os
+locais em que esses instrumentos foram instalados.
+
+image::{img}/exemplo-resolvido.jpg[scaledwidth="100%"]
+
+A partir da figura anterior, usando-se as definições de visada Ré, vante
+intermediária e vante de mudança pode-se preencher a planilha de campo
+seguinte.
+
+[width="70%",frame="topbot",options="header",cols="1^s,1^,1^,1^"]
+|====
+| ESTACA | RÉ (m) | VI (m) | VM (m)
+| A      | 1,820  |         |
+| B      |        | 3,725   |
+| C | 0,833 | | 3,749
+| D | | 2,501 |
+| E | | 2,934 |
+| F | | 3,686 |
+| G | | | 3,990
+|====
+
+A partir da Planilha de Campo anterior, usando-se as observações para
+preenchimento de planilha de escritório, e o formulário anteriormente
+mencionado, pode-se chegar à planilha de escritório seguinte, em que se
+adotou a cota 100,000m para estaca inicial, ou seja, para a estaca A.
+
+[width="80%",frame="topbot",options="header,footer",cols="3^,3^,3^,3^,3^,4^"]
+|====
+| ESTACA | RÉ (m) | AI (m) | VI (m) | VM (m) | COTA (m)
+| A      |1,820   |        |        |          | 100,000
+| `*`      |        | 101,820 |        |         | `*`
+| B ||| 3,725 || 98,095
+| C | 0,833 || | 3,749 | 98,071
+| `*` || 98,904 ||| `*`
+| D ||| 2,501 | |96,403
+| E ||| 2,934| | 95,970
+| F ||| 3,686| | 95,218
+| G |||| 3,990 | 94,914
+| SOMA | 2,653 | `*` | `*` | 7,739 | `*`
+|====
+
+A diferença de nível (DN) entre quaisquer duas estacas é igual ao valor
+absoluto (número sem sinal) da diferença entre as respectivas cotas. Por
+exemplo, a diferença de nível entre as estacas B e F corresponde a 
+DN = 98,095 - 95,218 = 2,877.
+
+=== Verificação
+
+Para verificação dos cálculos executados no preenchimento de planilhas de
+escritório pode-se usar a seguinte equação.
+
+[latexmath]
+++++
+\[
+|\sum\limits{RE} - \sum\limits{VM}| = |COTA_{Inicial} - COTA_{Final}|
+\]
+++++
+
+NOTE: o símbolo Σ significa: somatório.
+
+Aplicando-se a equação anterior na planilha de escritório do exemplo
+resolvido chega-se ao seguinte resultado.
+
+[latexmath]
+++++
+
+\[
+|2,653 - 7,739| = |100,000 - 94,914|
+\]
+
+\[
+| - 5,086| = |5,086|
+\]
+
+\[
+- 5,086 = 5,086
+\]
+
+++++
+
+
+
+
+Conclui-se que não houve erro de cálculo no preenchimento da planilha
+de escritório.
+
+=== Perfil longitudinal
+
+É a representação gráfica do nivelamento em um plano vertical. Em
+planta os pontos do perfil podem estar alinhados, ou não. O Perfil é formado por
+uma sequência de segmentos de reta, ligando os pontos representativos de
+cada estaca. Esses pontos são marcados em um sistema cartesiano. A abscissa
+de cada ponto corresponde a distância horizontal medida a partir da estaca
+inicial. As ordenadas correspondem às respectivas cotas.
+
+NOTE: Um sistema cartesiano é formado por um par de eixos ortogonais. Nesse
+sistema cada ponto é marcado a partir de dois valores. O primeiro valor,
+chamado de abcissa é marcado no eixo horizontal e o segundo valor, chamado
+de ordenada é marcado no eixo vertical.
+
+No exemplo resolvido, considerando-se o espaçamento entre cada
+estaca como de 20m, pode-se traçar o seguinte perfil longitudinal.
+
+image::{img}/perfil.eps[scaledwidth="40%"]
+
+=== Curvas de níveis
+
+Constituem-se na forma mais tradicional para a representação do relevo.
+Podem ser definidas como linhas que unem pontos com a mesma cota. Só
+podem ser traçadas na planta, após um levantamento PLANIALTIMÉTRICO.
+
+As curvas de níveis também podem ser demarcadas diretamente no
+campo. Nesses casos, a finalidade principal é a conservação do solo.
+

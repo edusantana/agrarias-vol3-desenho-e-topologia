@@ -53,7 +53,7 @@ Com relação às suas medidas, os ângulos podem ser classificados como:
 reto, agudo, obtuso e raso.
 
 
-[width="100%",cols="1^,4^,2^",frame="topbot",options="header",valign="middle"]
+[width="100%",cols="1^,4^,3^",frame="topbot",options="header",valign="middle"]
 |====
 | Ângulo | Características | Gráfico
 | Agudo 
@@ -128,12 +128,13 @@ ____
 
 
 === Conversão de grau sexagesimal para decimal
-REGRA PRÁTICA: “Divide-se os SEGUNDOS por 60 e soma-se aos
+
+REGRA PRÁTICA:: “Divide-se os SEGUNDOS por 60 e soma-se aos
 MINUTOS. Divide-se esse resultado por 60 e soma-se aos GRAUS.”
 
 === Conversão de grau decimal para sexagesimal
 
-REGRA PRÁTICA: A parte inteira corresponde aos GRAUS. Multiplica-
+REGRA PRÁTICA:: A parte inteira corresponde aos GRAUS. Multiplica-
 se a parte fracionária (com zero e vírgula) por 60. A parte inteira desse resultado
 corresponde aos MINUTOS; a parte fracionária (com zero e vírgula) deve ser
 multiplicada por 60 para se obter os SEGUNDOS.
@@ -143,6 +144,7 @@ NOTE: Nos segundos admite-se parte fracionária.
 === Ângulos horizontais em topografia
 São ângulos formados por dois planos verticais, contendo as direções
 formadas pelo ponto ocupado (vértice) e os pontos visados, conforme a figura
+seguinte.
 
 image::{img}/angulo-dois-planos.jpg[]
 

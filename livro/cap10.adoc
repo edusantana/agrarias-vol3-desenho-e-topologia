@@ -1,0 +1,202 @@
+== Estadimetria
+
+:cap: cap10
+:img: images/{cap}
+:online: {gitrepo}/blob/master/livro/code/{cap}
+:local: code/{cap}
+
+=== Medidas indiretas de distâncias
+
+Uma distância é medida de maneira indireta, quando no campo
+são observadas grandezas que se relacionam com esta,
+através de modelos matemáticos previamente conhecidos. Ou
+seja, é necessário realizar alguns cálculos sobre as medidas efetuadas em
+campo, para se obter indiretamente o valor da distância.
+
+Estadimetria, ou Taqueometria, é a parte da Topografia que se ocupa da
+medida indireta de distâncias. Para isso é usado o teodolito e a ESTÁDIA ou
+MIRA. Com o teodolito realiza-se a medição do ângulo vertical, que em conjunto
+com as leituras efetuadas sobre a estádia determina-se a distância horizontal
+entre o teodolito e a estádia.
+
+=== Estádias e fios estadimétricos
+
+Existem vários tipos de estádias, as mais comuns são réguas graduadas
+centimetricamente, ou seja, cada espaço branco ou preto, chamado de FAIXA,
+que corresponde a um CENTÍMETRO de espessura. Os DECÍMETROS são
+indicados por números, ao lado das faixas, localizados
+próximo ao meio do decímetro correspondente. A escala
+métrica é indicada com pequenos círculos localizados
+acima dos números indicadores dos decímetros, sendo
+que o número de círculos corresponde ao número de
+METROS, podendo-se existir um, dois, três, ou nenhum
+círculo, correspondendo a 1m, 2m, 3m e 0m,
+respectivamente.
+
+Para determinação da distância horizontal entre o
+teodolito e a estádia são feitas leituras na estádia por meio
+dos FIOS ESTADIMÉTRICOS (superior e inferior).
+
+image::{img}/estadias.jpg[scaledwidth="35%"]
+
+Por meio de relação de semelhança de triângulos a distância horizontal é
+determinada. Assim, na figura anterior, pode-se determinar a distância
+horizontal (OB) a partir do conhecimento da distância Ob (distância focal) e ac
+(distância entre os fios estadimétricos) tanto a distância focal como a distância
+entre os fios estadimétricos são valores CONSTANTES DO APARELHO. Além
+da distância focal e da distância entre os fios estadimétricos precisa-se
+conhecer a distância AC, que é obtida por meio de leituras sobre a estádia.
+
+Os fios estadimétricos (além dos fios médios, horizontal e vertical) são
+vistos através da luneta, e por meio desses fios faz-se a leitura sobre a estádia.
+Ao se focalizar a estádia, os fios sobrepõem a estádia, conforme a figura
+seguinte.
+
+image::{img}/focalizar.jpg[scaledwidth="70%"]
+
+Notar que na estádia existe uma faixa preta de maior comprimento e com
+uma reentrância em forma de L invertido. Essa faixa preta especial marca o
+início de um determinado decímetro, ou seja, a partir da parte superior dessa
+faixa é contado o número de faixas (brancas e pretas) até se encontrar um fio
+estadimétrico. Além dessa faixa existe outra faixa, de tamanho igual as demais,
+mas com uma reentrância em forma de L; a parte inferior dessa faixa marca a
+metade do decímetro considerado.
+
+=== Leitura na estádia
+
+Durante a leitura em uma mira convencional devem ser lidos
+quatro algarismos, que corresponderão aos valores do metro,
+decímetro, centímetro e milímetro, sendo que esse último é obtido por
+uma ESTIMATIVA e os demais por leitura direta dos valores indicados na
+estádia.
+
+A figura a seguir apresenta um exemplo de LEITURA em uma
+estádia convencional.
+
+image::{img}/leitura-estadia.jpg[scaledwidth="15%"]
+
+São feitas duas leituras na estádia, a leitura superior (LS) por
+meio do fio estadimétrico superior, e a leitura inferior (LI) por meio do fio
+estadimétrico inferior.
+
+O procedimento para qualquer leitura é o mesmo. Observa-se o fio
+estadimétrico correspondente e olha-se para baixo até se encontrar a “primeira”
+faixa preta especial (de maior comprimento e com reentrância em forma de L
+invertido). Acima dessa faixa encontra-se um número contendo (ou não) certo
+número de círculos.
+
+Observe-se a aplicação desse procedimento no caso da figura anterior,
+para a leitura superior (LS). O fio estadimétrico superior sobre uma faixa branca,
+olhando-se para baixo encontra-se a “primeira” faixa preta especial (de maior
+comprimento e com reentrância em forma de L invertido) que nesse caso está
+(fora do círculo da luneta) abaixo do número 4, esse número corresponde ao
+decímetro do trecho em questão. Acima do número quatro encontra-se 1 círculo
+vermelho, indicando portanto 1 metro, assim a leitura superior, com dois
+algarismos (metro e decímetro) corresponde a LS = 1,4 m. Ou seja essa parte da
+estádia está, aproximadamente, a 1,4 metros do terreno.
+
+Para completar a leitura superior falta a determinação de dois
+algarismos, correspondendo aos centímetros e aos milímetros. Para
+determinação dos centímetros conta-se, DE BAIXO PARA CIMA, A PARTIR da
+parte superior da faixa preta maior (de maior comprimento e com reentrância em
+forma de L invertido) ATÉ o fio estadimétrico correspondente (nesse caso o fio
+superior) o número de faixas “inteiras” (não se conta com a faixa que está
+“cortada” pelo fio estadimétrico em questão). Assim, no caso desse exemplo,
+contam-se, a partir da parte superior da faixa especial: uma faixa branca, uma
+preta, etc, totalizando-se 8 faixas INTEIRAS. Esse número corresponde aos
+centímetros. Assim a leitura superior, com três algarismos (metro, decímetro e
+centímetro) corresponde a LS = 1,48 m.
+
+Para determinação do algarismo correspondente ao milímetro estima-
+se, o local que está sendo “cortado” pelo fio correspondente. Lembrando que
+cada faixa tem 1 cm de espessura, e que 1 cm = 10 mm, se o fio cortar a faixa na
+metade, então pode-se estimar o número 5 para os milímetros (metade de 10
+mm, espessura da faixa).
+
+No caso desse exemplo, o fio superior está cortando a faixa branca
+acima da metade, pode-se estimar que o fio está cortando a faixa branca,
+aproximadamente, a 8 mm. Assim a leitura superior completa, com quatro
+algarismos (metro, decímetro, centímetro e milímetro) corresponde a LS = 1,488
+m.
+
+Aplicando-se o mesmo procedimento adotado para a leitura inferior
+encontra-se, LI = 1,438.
+
+NOTE: No exemplo anterior na leitura LS a luneta está não focalizando
+diretamente a faixa preta de maior comprimento e com reentrância em forma de
+L invertido. Isso significa, que na prática, não seria possível visualizar essa faixa
+e fazer as contagens necessárias. Nesses casos usa-se como referência a
+outra faixa especial (de tamanho igual as demais, mas com uma reentrância em
+forma de L) para se deduzir a locação da faixa preta de maior comprimento e
+com reentrância em forma de L invertido.
+
+Na figura a seguir observam-se vários exemplos de leitura em
+uma estádia convencional, muito usada em topografia.
+
+image::{img}/leitura-estadia2.jpg[scaledwidth="15%"]
+
+A leitura do decímetro é realizada através dos algarismos
+arábicos (1,2,3, etc.). No entanto as leituras correspondentes aos valores
+de 1m, 2m e 3m são marcados com algarismos romanos, isto é, I, II, e III,
+respectivamente. Quando o fio estadimétrico “corta” a estádia em um
+trecho, cujos decímetros estão marcados em algarismos romanos, então
+os dois primeiros algarismos da leitura já estão definidos, isto é, se “cortar”
+em I, II ou III, então as leituras serão iguais a 1,0m; 2,0m ou 3,0m,
+respectivamente. As demais leituras continuam da mesma forma. A leitura do
+centímetro é obtida através da graduação existente na mira. Traços escuros
+correspondem a centímetros pares e claros a valores ímpares. Finalmente a
+leitura do milímetro é estimada visualmente.
+
+
+=== Formulário utilizado
+==== Luneta em posição inclinada
+
+[latexmath]
+++++
+\[
+DH = K \times G \times sen^{2}(Z)
+\]
+++++
+
+[latexmath]
+++++
+\[
+G = L_{S} - L_{I}
+\]
+++++
+
+____
+Em que: 
+
+DH = distância horizontal; +
+K = constante do aparelho; geralmente K = 100; +
+Z = ângulo vertical zenital; +
+G = número gerador; +
+L~S~ = leitura superior feita na estádia; +
+L~I~ = leitura inferior feita na estádia.
+____
+
+==== Luneta em posição horizontal
+
+Nesse caso Z = 90°, então sen^2^ (Z) = sen^2^(90°) = 1.
+Assim a fórmula simplifica-se para:
+
+[latexmath]
+++++
+\[
+DH = K \times G
+\]
+++++
+
+Como, geralmente, K = 100, e como G = L~S~ – L~I~, no caso de luneta
+horizontal, então:
+
+[latexmath]
+++++
+\[
+DH = 100 \times (L_{S} - L_{I})
+\]
+++++
+
+
+

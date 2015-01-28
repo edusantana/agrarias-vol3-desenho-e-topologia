@@ -21,7 +21,7 @@ pontos A e B, mede-se, na realidade, a
 projeção de AB no plano horizontal,
 resultando na medição de A'B'.
 
-image::{img}/distancia.jpg[scaledwidth="40%"]
+image::{img}/distancia.eps[scaledwidth="40%"]
 
 Nessa medição é importante manter a
 horizontalidade da trena, e manter tensão
@@ -41,7 +41,7 @@ aprodutos químicos, sendo também bastante prática e segura.
 
 image::{img}/corda.jpg[]
 
-=== ACESSÓRIOS
+=== Acessórios
 Durante a medição de uma distância utilizando uma trena, é comum o
 uso de alguns acessórios como: piquetes, estacas testemunhas, balizas e
 fichas.
@@ -62,7 +62,7 @@ variável de 3 a 5cm; chanfradas na parte superior para permitir uma inscrição
 indicando o nome ou número do piquete. Normalmente a parte chanfrada é
 cravada voltada para o piquete.
 
-image::{img}/piquete.jpg[scaledwidth="80%"]
+image::{img}/piquete.jpg[scaledwidth="30%"]
 
 As BALIZAS são utilizadas para manter o alinhamento na medição entre pontos.
 São construídas em madeira ou ferro, arredondado, sextavado ou oitavado;
@@ -79,7 +79,7 @@ BALIZAMENTO, ou seja, na determinação de alinhamentos com comprimentos
 superiores ao comprimento total do diastímetro usado. A figura a seguir mostra
 dois tipos de fichas e uma argola que serve para acomodar as fichas.
 
-image::{img}/fichas.jpg[]
+image::{img}/fichas.eps[]
 
 === Balizamento
 

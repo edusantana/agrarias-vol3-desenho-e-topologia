@@ -40,7 +40,7 @@ nomes:
 | 10 | decágono | 20 | icoságono
 |====
 
-=== PRINCIPAIS ELEMENTOS DE UM POLÍGONO
+=== Principais elementos de um polígono
 
 VÉRTICES:: pontos extremos do polígono (A, B e C, no primeiro
 polígono da figura anterior);
@@ -52,13 +52,13 @@ e BA, no primeiro polígono da figura anterior);
 polígonos, formados por dois lados consecutivos (>A, >B, >C e >D no último
 polígono da figura anterior).
 
-=== PERÍMETRO
+=== Perímetro
 
 PERÍMETRO é o nome que se dá ao contorno de uma figura, de um
 terreno, de uma área. Calcula-se o perímetro de um polígono por meio da
 soma de todos os seus lados.
 
-=== ÁREA
+=== Área
 ÁREA é a medida da região que compreende o contorno e a região
 interna de um polígono.
 
@@ -111,6 +111,8 @@ fórmulas. Como por exemplo, outro quadrilátero especial chamado TRAPÉZIO.
 Em um trapézio existe uma base menor de medida b1, uma base maior de
 medida b2, sendo a altura (h) a distância entre essas duas bases.
 
+image::{img}/trapezio.jpg[scaledwidth="30%"]
+
 A área A~TP~ do trapézio é o produto da média aritmética entre as medidas
 das bases pela medida da altura, isto é:
 
@@ -131,14 +133,18 @@ separadamente a seguir. Antes disso é importante conceituar os polígonos
 convexos.
 
 
-=== POLÍGONO CONVEXO
+=== Polígono convexo
 
 POLÍGONO CONVEXO é um polígono que não apresenta reentrâncias
 no seu corpo. Isso significa que todo segmento de reta, cujas extremidades
 estão dentro da região interna de um polígono, também estará totalmente
 contido na região interna desse polígono.
 
-image::{img}/conexo.jpg[]
+[width="60%",cols="^,^",frame="none",grid="none"]
+|====
+| image:{img}/conexo.eps[] | image:{img}/nao-conexo.eps[]
+|====
+
 
 Pode-se dizer que um polígono convexo possui todos os seus ângulos
 internos menores que 180°.
@@ -149,7 +155,7 @@ TRIÂNGULOS. Em que *n* = número de lados do polígono.
 Por exemplo, a área do polígono ABCDEFX, que possui 7 lados, pode ser obtida
 pela decomposição do polígono em (7 – 2) = 5 triângulos.
 
-image::{img}/poligonoABCDEFX.jpg[]
+image::{img}/poligonoABCDEFX.eps[]
 
 Dessa forma a área do polígono pode ser obtida pela soma das áreas
 desses triângulos, ou seja:
@@ -177,6 +183,7 @@ S_{i} = (n - 2) \times 180^{\circ}
 ++++
 
 Em que: S~i~ = soma dos ângulos internos, e n = número de lados do polígono.
+
 Essa relação é importante, quando são determinados os ângulos internos de
 terrenos poligonais, podendo servir como termo de conferência.
 

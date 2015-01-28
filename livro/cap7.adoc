@@ -62,15 +62,18 @@ image::{img}/equipamento.jpg[scaledwidth="20%"]
 
 Para estacionar o equipamento de medida sobre um
 determinado ponto topográfico, o primeiro passo é instalar o
-TRIPÉ sobre o ponto, conforme a figura ao lado ilustra.
+TRIPÉ sobre o ponto, conforme a figura.
+
 Dois pontos devem ser observados nessa etapa, para facilitar a
 posterior instalação do equipamento: primeiro a base do tripé deve estar o mais
 horizontal possível e segundo, através do orifício existente na base do tripé
-deve-se enxergar o ponto topográfico. Isso pode ser observado na figura
-erminada essa etapa o equipamento já pode ser colocado sobre o tripé,
-acoplando-o à base com o auxílio do parafuso de fixação.
+deve-se enxergar o ponto topográfico. Isso pode ser observado na figura seguinte.
 
 image::{img}/equipamentoA.jpg[]
+
+Terminada essa etapa o equipamento já pode ser colocado sobre o tripé,
+acoplando-o à base com o auxílio do parafuso de fixação.
+
 
 ==== Centralização
 Após o equipamento estar fixo sobre o tripé é necessário realizar a
