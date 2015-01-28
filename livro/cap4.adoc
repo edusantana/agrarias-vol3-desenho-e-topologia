@@ -11,14 +11,14 @@ Uma linha poligonal aberta é formada por segmentos de reta
 consecutivos e não colineares, ou seja, segmentos de reta que
 não estão alinhados na mesma reta e que não se fecham.
 
-image::{img}/linha-poligonal.jpg[]
+image::{img}/linha-poligonal.pdf[]
 
 === Polígono
 POLÍGONO é uma figura geométrica, formada por uma linha poligonal
 fechada, ou seja, formada por segmentos consecutivos, não colineares que se
 fecham.
 
-image::{img}/poligono.jpg[]
+image::{img}/poligono.pdf[]
 
 
 === Nomenclatura
@@ -65,7 +65,7 @@ interna de um polígono.
 Para a unidade de medida de área pode-se usar um quadrado cujo lado tem
 uma unidade de comprimento.
 
-image::{img}/unidade-quadrado.jpg[]
+image::{img}/unidade-quadrado.pdf[]
 
 A figura seguinte mostra um quadrilátero especial, chamado retângulo.
 O retângulo ABCD, mede 3 unidades (3u) de comprimento e 2 unidades (2u) de

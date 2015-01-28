@@ -10,20 +10,19 @@
 Um segmento de reta orientado AB é um segmento de reta que
 tem início em A e final em B.
 
-image::{img}/segmento-de-reta.jpg[]
+image::{img}/segmento-de-reta.pdf[]
 
 Uma semi-reta orientada AB é a parte de uma reta que tem início em A,
 passa por B e se prolonga indefinidamente.
 
-
-image::{img}/semi-reta.jpg[]
+image::{img}/semi-reta.pdf[]
 
 === Ângulo
 
 Ângulo a região do plano dois segmentos de reta orientados, ou duas
 semi-retas orientadas (lados) que têm a origem no mesmo ponto (vértice).
 
-image::{img}/angulo.jpg[]
+image::{img}/angulo.pdf[]
 
 
 Podem ser usadas três letras, por exemplo, AOB para se indicar um
@@ -32,7 +31,7 @@ representa um ponto do primeiro segmento de reta (ou semi-reta) e a terceira let
 B representa um ponto do segundo segmento de reta (ou semi-reta). Pode-se
 usar a notação < para um ângulo, como por exemplo: <AOB.
 
-image::{img}/angulo-notacao.jpg[]
+image::{img}/angulo-notacao.pdf[]
 
 Notar que, nesse caso, um arco orientado foi traçado no sentido anti-
 horário, ou seja, de A (ponto da semi-reta, escolhida como primeira) para B.
